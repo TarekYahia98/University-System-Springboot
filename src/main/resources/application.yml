@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    web-application-type: servlet
+  security:
+     user:
+        name: tarekyahia
+        password: password
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/University_system
+    username: postgres
+    password: 711119
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+
+
